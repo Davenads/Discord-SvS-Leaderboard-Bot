@@ -2,7 +2,8 @@
 const { Client, GatewayIntentBits, Collection, EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 require('dotenv').config();
-
+const leaderboardCommand = require('./commands/leaderboard.js');
+console.log(leaderboardCommand); // This should log the command object
 const { sequelize, User, Challenge } = require('./utils/database');
 const { Op } = require('sequelize');
 
