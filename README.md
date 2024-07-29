@@ -1,4 +1,4 @@
-# Discord-SvS-Leaderboard-Bot\n\nLeaderboard system for managing the SvS League in Diablo Dueling Leagues.\n
+# Discord-SvS-Leaderboard-Bot
 
 Leaderboard system for managing the SvS League in Diablo Dueling Leagues.
 
