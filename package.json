@@ -1,0 +1,28 @@
+{
+  "name": "discord-leaderboard-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/builders": "^1.8.2",
+    "@discordjs/rest": "^2.3.0",
+    "csv-parser": "^3.0.0",
+    "discord-api-types": "^0.37.92",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.1",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

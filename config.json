@@ -1,0 +1,105 @@
+{
+    "commands": [
+      {
+        "name": "leaderboard",
+        "description": "View the leaderboard"
+      },
+      {
+        "name": "adduser",
+        "description": "Add a user to the leaderboard",
+        "options": [
+          {
+            "name": "charactername",
+            "type": 3,
+            "description": "Character name",
+            "required": true
+          },
+          {
+            "name": "specialization",
+            "type": 3,
+            "description": "Specialization",
+            "required": true,
+            "choices": [
+              { "name": "ES", "value": "es" },
+              { "name": "Vita", "value": "vita" }
+            ]
+          },
+          {
+            "name": "element",
+            "type": 3,
+            "description": "Element",
+            "required": true,
+            "choices": [
+              { "name": "Fire", "value": "fire" },
+              { "name": "Light", "value": "light" },
+              { "name": "Cold", "value": "cold" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "challenge",
+        "description": "Challenge someone",
+        "options": [
+          {
+            "name": "placementnumber",
+            "type": 4,
+            "description": "Placement number of the character to challenge",
+            "required": true
+          },
+          {
+            "name": "yourcharactername",
+            "type": 3,
+            "description": "Your character name (if you have 2 characters on the leaderboard)",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "reportwin",
+        "description": "Report a win",
+        "options": [
+          {
+            "name": "winner",
+            "type": 6,
+            "description": "User who won",
+            "required": true
+          },
+          {
+            "name": "loser",
+            "type": 6,
+            "description": "User who lost",
+            "required": true
+          }
+        ]
+      },
+      {
+        "name": "removeuser",
+        "description": "Remove a user from the leaderboard",
+        "options": [
+          {
+            "name": "user",
+            "type": 6,
+            "description": "User to remove",
+            "required": true
+          },
+          {
+            "name": "element",
+            "type": 3,
+            "description": "Element of the user to remove",
+            "required": true,
+            "choices": [
+              { "name": "Fire", "value": "fire" },
+              { "name": "Light", "value": "light" },
+              { "name": "Cold", "value": "cold" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "changelog",
+        "description": "View the changelog of reported wins"
+      }
+    ]
+  }
+  
