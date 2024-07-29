@@ -88,3 +88,4 @@ dist
 
 # Ignore copy.js file
 copy.js
+credentials.json
